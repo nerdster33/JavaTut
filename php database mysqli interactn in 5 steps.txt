@@ -1,0 +1,7 @@
+php database mysqli interactn in 5 steps
+
+1. create a database connection
+2. select a database to use 
+3. perform database query
+4. use return data if any
+close connection

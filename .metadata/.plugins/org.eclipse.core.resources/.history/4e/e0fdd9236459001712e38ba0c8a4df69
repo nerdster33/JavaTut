@@ -1,0 +1,9 @@
+package com.training.projects;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+public class Average {
+	public static double Average() {
+	
+
+}

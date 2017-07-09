@@ -1,0 +1,31 @@
+package com.training.projects;
+import java.util.Scanner;
+
+public class AverageApp {
+
+	public static void main(String[] args) {
+		
+		int sum= 0;
+		float Average;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of numbers you want to find its average: ");
+		int n = input.nextInt();
+		int a[] = new int[n];
+		System.out.println("Enter the numbers: ");
+		
+		for (int i = 0; i < a.length; i++) {
+			a[i] = input.nextInt();
+			sum = sum + a[i];
+		}
+		for(int x : a){
+			System.out.println("The numbers are: ");
+			System.out.print(x + "\t");
+			
+		}
+		Average = (float)sum/n;
+		System.out.println("Sum of: " +sum);
+		System.out.println("Average is : "+Average);
+
+	}
+
+}

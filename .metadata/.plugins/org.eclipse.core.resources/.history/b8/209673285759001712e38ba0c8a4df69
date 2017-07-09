@@ -1,0 +1,28 @@
+package com.training.projects;
+import java.util.Scanner;
+
+public class AverageApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+  
+   
+
+   public static double Average(int... values) {// for argument with unknown variable
+       int total = 0;
+       Scanner input = new  Scanner(System.in);
+       int values = input.nextInt();
+      System.out.println("Enter numbers seperate by comma: ");
+
+       for (int x : values) {
+           total += x;
+       }
+           return total / values.length;
+
+   }
+
+}

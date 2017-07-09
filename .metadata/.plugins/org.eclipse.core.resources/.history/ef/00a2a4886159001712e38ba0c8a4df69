@@ -1,0 +1,25 @@
+package com.training.projects;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+
+
+public class AverageApp {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter how many numbers you will to know the average: ");
+		//int numberValue = Integer.parseInt(scan.nextLine());
+		int numberValue = scan.nextInt();
+		
+	
+	int arrayOfNumbers[] = new int[numberValue];
+	for (int i = 0; i < arrayOfNumbers.length; i++) {
+		System.out.println("Enter the name friend " + (i+1)+ ": ");
+		arrayOfNumbers[i]= scan.nextInt();
+	}
+	
+	
+	
+	
+	}
+}
